@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Materialize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Materialize Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Recipinoy</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header class="orange darken-2">
+      <div class="container">
+        <!--Navbar-->
+        <nav class="nav-wrapper orange darken-2 z-depth-0">
+          <a href="#" class="left brand-logo yellow-text text-lighten-2"
+            ><i class="material-icons">local_dining</i>Recipinoy</a
+          >
+          <ul class="right hide-on-small-only">
+            <li><a href="#" class="white-text">Home</a></li>
+            <li>
+              <a href="" class="dropdown-trigger" data-target="dropdown1"
+                >Recipes
+                <i class="material-icons right">arrow_drop_down</i>
+              </a>
+            </li>
+            <li><a href="#" class="white-text">Contact Us</a></li>
+          </ul>
+          <a
+            href="#"
+            class="right hide-on-med-and-up sidenav-trigger show-on-large black-text"
+            data-target="mobile-nav"
+            role="button"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul id="dropdown1" class="dropdown-content yellow">
+            <li>
+              <a href="#!" class="black-text">Breakfast</a>
+            </li>
+            <li>
+              <a href="#!" class="black-text">Lunch</a>
+            </li>
+            <li>
+              <a href="#!" class="black-text">Dinner</a>
+            </li>
+          </ul>
+          <ul id="mobile-nav" class="sidenav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <!--/Navbar-->
+      </div>
+    </header>
+    <!--/Header-->
+    <!--Main-->
+    <main>
+      <!--Section Hero-->
+      <section class="section hero purple lighten">
+        <!-- Container -->
+        <div class="container">
+          <!--Row Container-->
+          <div class="row valign-wrapper">
+            <!--First Column-->
+            <div class="col s12 l6">
+              <h1 class="white-text">Can't decide what to cook?</h1>
+              <h6>Find the best tasting pinoy dish recipes here!</h6>
+              <p>
+                Search for a variety of pinoy dishes here at
+                <b class="yellow-text">ReciPinoy</b>
+              </p>
+              <a
+                href="#"
+                class="waves-effect waves-light btn-large green lighten"
+                >Search for recipes</a
+              >
+            </div>
+            <!--/First Column-->
+            <!-- Second Column -->
+            <div class="col s12 l6 header-image">
+              <img
+                src="images/banner.jpg"
+                alt=""
+                class="materialboxed"
+                data-caption="Recipinoy Banner"
+              />
+            </div>
+            <!-- /Second Column -->
+            <!-- Carousel -->
+          </div>
+        </div>
+      </section>
+      <!-- /Section -->
+      <!-- Famous Dishes -->
+      <section class="section famous-dishes green">
+        <!-- Container -->
+        <div class="container">
+          <!-- Section Header -->
+          <div class="center-align">
+            <!-- Section Header -->
+            <h3 class="white-text">Famous Dishes</h3>
+            <p>
+              Here are some of the most searched recipes here at
+              <b class="yellow-text">ReciPinoy</b>
+            </p>
+          </div>
+          <!-- Row Container -->
+          <div class="row">
+            <!-- First Column -->
+            <div class="col s12 m6 l3">
+              <!-- Card -->
+              <div class="card medium hoverable">
+                <!-- Card Image -->
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img src="images/pork-adobo.jpg" alt="" class="activator" />
+                </div>
+                <!-- Card Content -->
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"
+                    >Pork Adobo
+                    <i class="material-icons right">expand_more</i></span
+                  >
+                  <div class="card-action">
+                    <a
+                      href="https://panlasangpinoy.com/filipino-food-pork-adobo-recipe/"
+                      target="_blank"
+                      class="waves-effect waves-light btn-small purple lighten-1"
+                      >See Recipe</a
+                    >
+                  </div>
+                </div>
+                <!-- Card Reveal -->
+                <div class="card-reveal">
+                  <span class="card-title purple-text text-lighten"
+                    >Pork Adobo <i class="material-icons right">close</i></span
+                  >
+                  <p>
+                    It is a dish composed of pork slices cooked in soy sauce,
+                    vinegar, and garlic. There are version wherein onions are
+                    also added. Adobo is a popular dish in the Philippines,
+                    along with Sinigang. Adobo, in general, can be cooked using
+                    different kinds of protein.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- /First Column -->
+            <!-- Second Column -->
+            <div class="col s12 m6 l3">
+              <!-- Card -->
+              <div class="card medium hoverable">
+                <!-- Card Image -->
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    src="images/chicken-afritada.jpg"
+                    alt=""
+                    class="activator"
+                  />
+                </div>
+                <!-- Card Content -->
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">
+                    Chicken Afritada
+                    <i class="material-icons right"> expand_more</i>
+                  </span>
+                  <div class="card-action">
+                    <a
+                      href="https://panlasangpinoy.com/chicken-afritada-recipe/"
+                      target="_blank"
+                      class="waves-effect waves-light btn-small purple lighten-1"
+                      >See recipe</a
+                    >
+                  </div>
+                </div>
+                <!-- Card Reveal -->
+                <div class="card-reveal">
+                  <span class="card-title purple-text text-lighten">
+                    Chicken Afritada <i class="material-icons right">close</i>
+                  </span>
+                  <p>
+                    Chicken Afritada or afritadang manok is a type of Filipino
+                    chicken stew with tomato based sauced. It is a simple dish
+                    that can be cooked on regular days. It is perfect for lunch
+                    and is better when eaten with warm white rice.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- /Second Column -->
+            <!-- Third Column -->
+            <div class="col s12 m6 l3">
+              <!-- Card -->
+              <div class="card medium hoverable">
+                <!-- Card Image -->
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    src="images/chicken-sisig.jpg"
+                    alt=""
+                    class="activator"
+                  />
+                </div>
+                <!-- Card Content -->
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">
+                    Sizzling Chicken Sisig
+                    <i class="material-icons right"> expand_more</i>
+                  </span>
+                  <div class="card-action">
+                    <a
+                      href="https://panlasangpinoy.com/sizzling-chicken-sisig/"
+                      target="_blank"
+                      class="waves-effect waves-light btn-small purple lighten-1"
+                      >See recipe</a
+                    >
+                  </div>
+                </div>
+                <!-- Card Reveal -->
+                <div class="card-reveal">
+                  <span class="card-title purple-text text-lighten">
+                    Sizzling Chicken Sisig
+                    <i class="material-icons right">close</i>
+                  </span>
+                  <p>
+                    Sizzling Chicken Sisig is the chicken version of the popular
+                    sisig dish. This recipe is quick and easy and can be low in
+                    fat depending on the type and amount of mayonnaise that will
+                    be used.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- /Third Column -->
+            <!-- Fourth Column -->
+            <div class="col s12 m6 l3">
+              <!-- Card -->
+              <div class="card medium hoverable">
+                <!-- Card Image -->
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    src="images/spicy-beef-caldereta.jpg"
+                    alt=""
+                    class="activator"
+                  />
+                </div>
+                <!-- Card Content -->
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">
+                    Beef Caldereta
+                    <i class="material-icons right"> expand_more</i>
+                  </span>
+                  <div class="card-action">
+                    <a
+                      href="https://panlasangpinoy.com/beef-caldereta-recipe/"
+                      target="_blank"
+                      class="waves-effect waves-light btn-small purple lighten-1"
+                      >See recipe</a
+                    >
+                  </div>
+                </div>
+                <!-- Card Reveal -->
+                <div class="card-reveal">
+                  <span class="card-title purple-text text-lighten">
+                    Beef Caldereta
+                    <i class="material-icons right">close</i>
+                  </span>
+                  <p>
+                    With meat cooked until so tender it falls off the bone, it’s
+                    no secret that beef caldereta is a Filipino favorite. A mix
+                    of ingredients come together in this tomato-based stew
+                    practically bursting with flavor. The beef caldereta recipe
+                    is one you’ll find in practically any Filipino cookbook
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- /Fourth Column -->
+          </div>
+          <!-- Row Container -->
+        </div>
+      </section>
+      <!-- /Famous Dishes -->
+      <!-- Trending Recipe -->
+      <section class="trending-recipe container">
+        <!-- Section Header -->
+        <div class="center-align">
+          <h3>Trending Recipe</h3>
+          <p>Here is our trending recipe for today!</p>
+          <div class="video-container">
+            <iframe
+              width="514"
+              height="204"
+              src="https://www.youtube.com/embed/Ix5Dnud1bl0"
+              title="AWESOME Pork Adobo"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <br /><br /><br />
+      <!-- /Trending Recipe -->
+      <!-- Quote -->
+      <section class="quote-banner cyan lighten-4">
+        <div class="container" id="quote">
+          <h4 class="red-text text-lighten-1">
+            “Food brings people together on many different levels. It's
+            nourishment of the soul and body; it's truly love.”
+          </h4>
+          <h6 class="right-align">- Giada De Laurentiis</h6>
+        </div>
+      </section>
+      <!-- /Quote -->
+      <br /><br /><br />
+      <!--Contact Us-->
+      <section class="section purple">
+        <!-- Section Header -->
+        <div class="center-align">
+          <h2 class="white-text">Get in Touch With Us</h2>
+        </div>
+        <!-- /Section Header -->
+        <!-- Row Container -->
+        <div class="row center-align">
+          <!-- First Column -->
+          <h5 class="white-text">Send a Message</h5>
+          <p class="white-text text-darken-1">
+            Want to know more about us or our products? Send a message!
+          </p>
+          <div class="container center">
+            <form action="" class="form row">
+              <div class="input-field col s12">
+                <input type="text" id="name" class="validate" />
+                <label for="name">Full Name</label>
+              </div>
+              <div class="input-field col s12 m6">
+                <input type="email" id="email" class="validate" />
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field col s12 m6">
+                <input type="tel" id="tel" class="validate" />
+                <label for="tel">Phone Number</label>
+              </div>
+              <div class="input-field col s12">
+                <textarea id="textarea" class="materialize-textarea"></textarea>
+                <label for="textarea">Message</label>
+              </div>
+              <button
+                class="waves-effect waves-light btn-large indigo"
+                type="submit"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+        <!-- /Row Container -->
+      </section>
+      <!--/Contact Us-->
+      <!-- Footer -->
+      <footer class="center-align">
+        <p class="black-text text-darken-4">&copy; All Rights Reserved 2024</p>
+      </footer>
+      <!-- /Footer -->
+    </main>
+
+    <!--Jquery CDN-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Sidenav Init -->
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav({
+          edge: "right",
+          inDuration: 1000,
+          outDuration: 1000,
+        });
+      });
+    </script>
+    <!-- Material Box Init -->
+    <script>
+      $(document).ready(function () {
+        $(".materialboxed").materialbox({
+          inDuration: 1000,
+          outDuration: 1000,
+        });
+      });
+    </script>
+    <!-- Dropdown Init -->
+    <script>
+      $(document).ready(function () {
+        $(".dropdown-trigger").dropdown();
+      });
+    </script>
+  </body>
+</html>
